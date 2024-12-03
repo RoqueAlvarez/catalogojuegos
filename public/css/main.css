@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(45deg, #6a0dad, #37c468) !important; /* Degradado morado-rosa */
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+button, .btn, .btn-primary, .btn-link, .dt-button {
+    background: linear-gradient(45deg, #6a0dad, #f06292) !important;  /* Degradado morado-rosa */
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    font-weight: bold !important; 
+    border-radius: 5px !important;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover, .btn-primary:hover, .dt-button:hover {
+    background: linear-gradient(45deg, #ff4081, #8e24aa) !important; /* Degradado rosa-morado al hacer hover */
+    color: white !important; 
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #6a0dad !important; /* Morado */
+    font-weight: bold !important;
+}
+
+table, .table, .dataTable {
+    background-color: #181d29 !important;
+    color: white !important; 
+    border-collapse: collapse; 
+}
+
+.table th, .table td, .dataTable th, .dataTable td {
+    padding: 12px 15px !important; 
+    text-align: left !important; 
+    border: 1px solid #6a0dad !important; /* Morado */
+}
+
+.table th, .dataTable th {
+    background: linear-gradient(45deg, #6a0dad, #8e24aa) !important;  /* Degradado morado-rosa */
+    color: white !important; 
+}
+
+.dataTable tr.selected {
+    background: linear-gradient(45deg, #6a0dad, #f06292) !important; /* Degradado morado-rosa */
+    color: white !important; 
+}
+
+.table tr:nth-child(even), .dataTable tr:nth-child(even) {
+    background-color: #333c56 !important; 
+}
+
+.table tr:nth-child(odd), .dataTable tr:nth-child(odd) {
+    background-color: #333c56 !important;
+}
+
+.card, .bg-card {
+    background-color: #181d29 !important;  
+    border: 2px solid #6a0dad !important; /* Morado */
+    color: white !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
+}
+
+.card-header, .bg-card .card-header {
+    background: linear-gradient(45deg, #6a0dad, #f06292) !important;  /* Degradado morado-rosa */
+    color: white !important;
+    border-bottom: 2px solid #6a0dad !important; /* Morado */
+}
+
+.card-body, .bg-card .card-body {
+    background-color: #181d29 !important; 
+    color: white !important; 
+}
+
+.card-footer, .bg-card .card-footer {
+    background: linear-gradient(45deg, #6a0dad, #f06292) !important; /* Degradado morado-rosa */
+    color: white !important; 
+}
+
+.card a, .bg-card a {
+    color: #6a0dad !important; /* Morado */
+    font-weight: bold !important;
+}
+
+.fondo {
+    background-color: #181d29 !important; 
+    border-radius: 15px !important;
+    border: 2px solid #6a0dad !important; /* Morado */
+}
